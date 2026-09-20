@@ -1,0 +1,20 @@
+# === Dependencias principales ===
+
+# OpenCV: librería para visión por computadora (detección de rostros, cámara, etc.)
+opencv-python>=4.10.0
+
+# pyttsx3: conversión de texto a voz (TTS)
+pyttsx3>=2.90
+
+# pygame: para reproducir música y sonidos de fondo
+pygame>=2.5.0
+
+
+# === Opcional (solo si usas cámara IP) ===
+# requests: IPWebCam lo encuentras en la Play Store
+
+# === Notas ===
+# - No es necesario instalar "winsound", ya que viene incluido en Windows.
+# - pyttsx3 funciona sin conexión a internet (usa el motor de voz del sistema).
+# - Si usas Linux o macOS, asegúrate de tener instalado un motor de voz (espeak, NSSpeechSynthesizer, etc.).
+# - Luego usas pip install -r requirements.txt

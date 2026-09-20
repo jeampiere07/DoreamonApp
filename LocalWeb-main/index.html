@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Wood Masters</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="Logo.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+        /* CSS Extra para tarjetas y beneficios */
+        .card {
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .custom-img {
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .card-text {
+            font-size: 15px;
+            color: #333;
+        }
+
+        .benefit-card {
+            text-align: center;
+            padding: 30px 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .benefit-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .icon-box {
+            font-size: 50px;
+            line-height: 1;
+        }
+
+        .benefit-card h4 {
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        .benefit-card p {
+            font-size: 15px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-light position-relative shadow">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
+            <a href="" class="navbar-brand font-weight-bold text-secondary d-flex align-items-center" style="font-size: 50px;">
+                <span class="text-primary">Doraemon Humanoide</span>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav font-weight-bold ml-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                    <a href="aprende.html" class="nav-item nav-link">Aprende más</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary px-0 px-md-5 mb-5">
+        <div class="row align-items-center px-3 justify-content-center text-center">
+            <div class="col-12">
+                <h1 class="display-3 font-weight-bold text-white">GRACIAS</h1>
+                <h2 class="text-white mb-4">
+                    ¡Gracias por cuidar nuestro planeta! Tus acciones son un regalo valioso que nos asegura un futuro más sano y un hogar lleno de vida para todos
+                </h2>
+                <h3 class="text-center">¡Escanea El QR para saber más!</h3>
+            </div>
+            <div class="col-12">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-4 col-6 d-flex justify-content-center">
+                        <img class="img-fluid mt-3" src="img/imagen1.png" alt="Imagen 1">
+                    </div>
+                    <div class="col-md-4 col-6 d-flex justify-content-center">
+                        <img class="img-fluid mt-3" src="img/QR.png" alt="Imagen QR">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <!-- Funciones Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="text-center pb-2">
+                <p class="section-title px-5"><span class="px-2">¿Cómo Funciona?</span></p>
+                <h1 class="mb-4">FUNCIONES</h1>
+            </div>
+            <div class="row">
+                <!-- Tarjeta 1 -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 border-0 bg-light shadow-sm">
+                        <img class="card-img-top img-fluid custom-img" src="img/Imagen7.png" alt="YOLO FACE">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h4 class="card-title">YOLO FACE</h4>
+                            <p class="card-text flex-grow-1">
+                                Este proyecto utiliza YOLO y está desarrollado en Python. Detecta rostros tanto de cerca como de lejos y los marca con un recuadro (hitbox).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 2 -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 border-0 bg-light shadow-sm">
+                        <img class="card-img-top img-fluid custom-img" src="img/Imagen8.png" alt="TEC. INTERACTIVO">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h4 class="card-title">TEC. INTERACTIVO</h4>
+                            <p class="card-text flex-grow-1">
+                                Cuando se detecta un rostro, el sistema emite un pitido, muestra un mensaje de agradecimiento y una frase aleatoria que incentiva a cuidar el medio ambiente. Además, invita a seguir investigando mediante un código QR.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tarjeta 3 -->
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 border-0 bg-light shadow-sm">
+                        <img class="card-img-top img-fluid custom-img" src="img/Imagen9.PNG" alt="IDEAS FUTURAS">
+                        <div class="card-body text-center d-flex flex-column">
+                            <h4 class="card-title">IDEAS FUTURAS</h4>
+                            <p class="card-text flex-grow-1">
+                                Integrar inteligencia artificial para reconocer emociones, energía solar para autosustentarse, compactador inteligente de residuos. Proyección holográfica, asistente de voz ecológico y un sistema de recompensas que incentive el reciclaje.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Funciones End -->
+
+    <!-- Beneficios Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="text-center pb-4">
+                <p class="section-title px-5"><span class="px-2">¿Cómo Beneficia?</span></p>
+                <h1 class="mb-4">BENEFICIOS</h1>
+            </div>
+            <div class="row">
+                <!-- Seis ítems de beneficios -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="benefit-card bg-light shadow-sm rounded h-100">
+                        <div class="icon-box">🌱</div>
+                        <h4 class="mt-3">Ecológico y sostenible</h4>
+                        <p>Hecho con materiales reciclados que reducen la basura, protegen y cuidan el planeta.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="benefit-card bg-light shadow-sm rounded h-100">
+                        <div class="icon-box">💰</div>
+                        <h4 class="mt-3">Económico y accesible</h4>
+                        <p>Su construcción es de bajo costo y fácil de replicar en cualquier colegio o comunidad.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="benefit-card bg-light shadow-sm rounded h-100">
+                        <div class="icon-box">🎓</div>
+                        <h4 class="mt-3">Educativo e interactivo</h4>
+                        <p>Separa residuos con compartimentos, luces y sonidos que enseñan mientras entretienen.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="benefit-card bg-light shadow-sm rounded h-100">
+                        <div class="icon-box">🤝</div>
+                        <h4 class="mt-3">Impacto social positivo</h4>
+                        <p>Motiva a estudiantes y familias a reciclar de forma divertida y constante.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="benefit-card bg-light shadow-sm rounded h-100">
+                        <div class="icon-box">📱</div>
+                        <h4 class="mt-3">Tecnología innovadora</h4>
+                        <p>Código QR que lleva a una web con consejos prácticos para el reciclaje.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="benefit-card bg-light shadow-sm rounded h-100">
+                        <div class="icon-box">⭐</div>
+                        <h4 class="mt-3">Diseño atractivo y llamativo</h4>
+                        <p>Luces y estilo único que captan la atención y generan curiosidad por usarlo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Beneficios End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img class="img-fluid rounded mb-5 mb-lg-0" src="img/imagen6.png" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <p class="section-title pr-5"><span class="pr-2">Conócenos sobre</span></p>
+                    <h1 class="mb-4">Wood Masters</h1>
+                    <p>Este Proyecto YOLO en Python detecta rostros y genera interacción ambiental. Beneficia al promover reciclaje y conciencia ecológica. Ventajas: multifuncional como lámpara y basurero inteligente. Físicamente es compacto, eficiente y automatizado.</p>
+                    <div class="row pt-2 pb-4">
+                        <div class="col-6 col-md-4">
+                            <img class="img-fluid rounded" src="img/imagen5.png" alt="">
+                        </div>
+                        <div class="col-6 col-md-8">
+                            <ul class="list-inline m-0">
+                                <li class="py-2 border-top border-bottom"><i class="fa fa-check text-primary mr-3"></i>Uso de Tecnología o herramientas simples</li>
+                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Originalidad y creatividad</li>
+                                <li class="py-2 border-bottom"><i class="fa fa-check text-primary mr-3"></i>Sostenibilidad y uso eficiente de recursos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Testimonios Start -->
+    <div class="container-fluid py-5">
+        <div class="container p-0">
+            <div class="text-center pb-4">
+                <p class="section-title px-5"><span class="px-2">ENTREVISTAS</span></p>
+                <h1 class="mb-4">Usuarios entrevistados</h1>
+            </div>
+
+            <!-- Carrusel de Testimonios -->
+            <div class="owl-carousel testimonial-carousel" id="testimonial-carousel">
+                <div class="testimonial-item px-3">
+                    <div class="bg-light shadow-sm rounded mb-4 p-4">
+                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
+                        Este proyecto nos inspira a cuidar el planeta cada día.
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="rounded-circle" src="img/hombre.png" style="width: 70px; height: 70px;" alt="Usuario">
+                        <div class="pl-3">
+                            <h5>Carlos Valladolid</h5>
+                            <i>Entrevistado</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item px-3">
+                    <div class="bg-light shadow-sm rounded mb-4 p-4">
+                        <h3 class="fas fa-quote-left text-primary mr-3"></h3>
+                        Me motiva ver que reciclar también puede ser divertido.
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <img class="rounded-circle" src="img/mujer.png" style="width: 70px; height: 70px;" alt="Usuario">
+                        <div class="pl-3">
+                            <h5>Genara Valladolid</h5>
+                            <i>Entrevistada</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulario de Opinión -->
+            <div class="mt-5">
+                <h2 class="text-center mb-4">ENVÍA UNA OPINIÓN</h2>
+                <form id="opinion-form" name="opinion-form" method="POST" data-netlify="true">
+                    <div class="row">
+                        <div class="col-12 mb-3">
+                            <input type="text" class="form-control" name="name" placeholder="Tu Nombre" id="opinion-name" required>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <textarea name="message" rows="5" class="form-control" id="opinion-message" placeholder="Escribe tu opinión" required></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <input type="submit" class="btn btn-primary px-4" value="Enviar">
+                        </div>
+                    </div>
+                </form>
+                <div id="opinion-success" style="display:none; margin-top:15px; color:green; font-weight:bold; text-align:center;">
+                    ¡Gracias por tu opinión! Se ha agregado al listado de testimonios.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonios End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="" class="navbar-brand font-weight-bold text-primary m-0 mb-4 p-0" style="font-size: 40px; line-height: 40px;">
+                    <span class="text-white">Jeampiere V.</span>
+                </a>
+                <p>Mi github: https://github.com/JeampiereValladolid</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                       style="width: 38px; height: 38px;" href="https://www.youtube.com/@JeampiereSmithValladolidVelasq"><i class="bi bi-youtube"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                       style="width: 38px; height: 38px;" href="https://www.tiktok.com/@jeampiere_07"><i class="bi bi-tiktok"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                       style="width: 38px; height: 38px;" href="https://discord.com/users/1205570654720491545"><i class="bi bi-discord"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                       style="width: 38px; height: 38px;" href="https://www.instagram.com/jeampiere_07/"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JS Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact JS -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template JS -->
+    <script src="js/main.js"></script>
+
+    <!-- JS Opiniones -->
+    <script>
+        document.getElementById("opinion-form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            const form = e.target;
+            const data = new FormData(form);
+            fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: new URLSearchParams(data).toString()
+            })
+                .then(() => {
+                    document.getElementById("opinion-success").style.display = "block";
+                    form.reset();
+                })
+                .catch((error) => alert("Error al enviar la opinión: " + error));
+        });
+    </script>
+
+    <!-- JS Testimonios desde JSON -->
+    <script>
+        fetch('testimonios.json')
+            .then(response => response.json())
+            .then(data => {
+                const carousel = $("#testimonial-carousel");
+                data.forEach(test => {
+                    const newTestimonial = `
+                        <div class="testimonial-item px-3">
+                            <div class="bg-light shadow-sm rounded mb-4 p-4">
+                                <h3 class="fas fa-quote-left text-primary mr-3"></h3>
+                                ${test.message}
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img class="rounded-circle" src="${test.img}" style="width: 70px; height: 70px;" alt="Usuario">
+                                <div class="pl-3">
+                                    <h5>${test.name}</h5>
+                                    <i>${test.role}</i>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    carousel.trigger('add.owl.carousel', [$(newTestimonial)]).trigger('refresh.owl.carousel');
+                });
+            })
+            .catch(err => console.error("Error al cargar testimonios:", err));
+    </script>
+</body>
+
+</html>
